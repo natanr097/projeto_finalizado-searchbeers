@@ -1,0 +1,79 @@
+@import
+url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+body {
+	background-color: #F1C345;
+}
+
+* {
+	font-size: 1.05rem;
+}
+
+
+.navbar {
+	background-color: #242424;
+	margin-top: 20px;
+	height: 80px;
+}
+
+.nav-link {
+	color: #ffffff;
+	font-family: 'Roboto', sans-serif;
+	line-height: 100px;
+}
+
+.active {
+	color: #ffffff;
+	text-decoration: underline;
+	font-size: 1.08rem;
+	color: #F1C345;
+}
+
+
+/* estilização da centralização das cervejas na div */
+.form-group{
+	margin-left: 80px;
+}
+
+button{
+	margin-left: 60px;
+}
+
+/* Estilos das descrições e titulos das cervejas */
+/* Estilizando as informações das cervejas */
+p {
+    font-size: 1rem;
+	text-align: justify;
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+}
+
+/* Estilizando o titulo da cerveja */
+span{
+	/* nao aumentar o tamanho desta fonte, se n quebra o titulo */
+	font-size: 0.90rem;
+	/* border: 1px solid red; */
+	font-weight: 700;
+	font-family: 'Roboto', sans-serif;
+	text-transform:uppercase;
+	/* margin-left: 35px; */
+	display: block;
+	text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

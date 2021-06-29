@@ -1,0 +1,217 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: #F1C345;
+}
+
+label, a, h5 {
+	color: white;
+}
+
+td {
+	color: white;
+}
+
+a:hover {
+	color: #f7b600;
+	text-decoration: none;
+}
+
+h1, h3 {
+	font-family: Selphia Selphia Script;
+	font-size: 30px;
+	padding-left: 10px;
+	color: white;
+	text-align: center;
+	font-weight: bolder;
+}
+
+h2, p {
+	color: white;
+	text-align: center;
+}
+
+/*btn Entrar tela de login*/
+.btnLogin {
+	margin-top: 30px;
+	border: 1px solid #F1B830;
+	width: 100%;
+	padding: 10px;
+	margin-right: 15px;
+	background-color: #F1B830;
+	border-radius: 3px;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 0.85rem;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	-ms-border-radius: 3px;
+	-o-border-radius: 3px;
+}
+
+.btnCadastrar {
+	border: 1px solid #F1B830;
+	width: 100%;
+	padding: 10px;
+	margin-right: 15px;
+	background-color: #F1B830;
+	border-radius: 3px;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 0.85rem;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	-ms-border-radius: 3px;
+	-o-border-radius: 3px;
+	margin-top: 15%;
+}
+/*btn cadastre-se da tela de login*/
+.btnCad {
+	position: absolute;
+	top: 92%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	border: 1px solid #F1B830;
+	display: inline-block;
+	padding: 8px;
+	color: #F1B830;
+	border-radius: 3px;
+	font-size: 0.85rem;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+/*BOTÕES PADRÃO DA TELA DE LOGIN/CADASTRO*/
+.btn {
+	margin-top: 10px;
+	margin-left: 15px;
+	border: 1px solid #F1B830;
+	display: inline-block;
+	font-size: 0.92rem;
+	padding: 13px;
+	color: #F1B830;
+	border-radius: 3px;
+	font-family: 'Source Sans Pro', sans-serif;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	-ms-border-radius: 3px;
+	-o-border-radius: 3px;
+}
+
+.btn:hover {
+	background-color: #F1B830;
+	border: none;
+}
+
+.cerveja {
+	font-size: 18px;
+	text-align: center;
+}
+
+.cerveja:hover {
+	border: 5px solid #f7b600;
+}
+
+.popover {
+	background-color: #f7b600;
+}
+
+#rodape {
+	padding: 10px;
+	background-color: #242424;
+	height: auto;
+	text-align: center;
+	color: white;
+	font-style: Arial;
+	margin-top: 10px;
+}
+
+.rede_social {
+	padding: 5px;
+}
+
+/*  Tela Login */
+.form {
+	width: 360px;
+	/*margin: auto;
+    padding-top: 40px;*/
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+#logoMenu {
+	color: #F1C345;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+.card {
+	box-shadow: 1px 1px 5px #cccccc;
+	/*background-color: #f7b600;*/
+	background-color: #242424;
+	padding: 30px;
+	border-radius: 5px;
+	box-shadow: 4px 5px 10px #242424;
+	height: 615px;
+}
+
+.card-top {
+	text-align: center;
+}
+
+.card-group {
+	margin-bottom: 10px;
+}
+
+.card-group>label {
+	width: 100%;
+	color: none;
+	display: block;
+}
+
+.card-group>input {
+	border-radius: 5px;
+	background-color: #242424;
+	outline: 0;
+	width: 100%;
+	height: 35px;
+	padding: 5px;
+}
+
+.img-login {
+	margin-top: 15px;
+	border-radius: 50px;
+	width: 100px;
+	box-shadow: 0px 0px 2px #f7b600;
+}
+
+/*---------------------------INICIO MODAL------------------------*/
+.modal-header, .modal-title, .modal-body, .modal-footer {
+	border: none !important;
+}
+
+.modal-header {
+	background: #3d3d3d;
+}
+
+.modal-title {
+	background: none;
+}
+
+.modal-body, .modal-footer {
+	background: #414141;
+}
+
+/*botão de fechar modal da tela de cadastro*/
+span {
+	color: #F1B830;
+}
+
+.dropdown-toggle {
+	margin-left: 0px;
+	width: 20%;
+}
+
+/*----------------------------FIM MODAL--------------------------*/
+
+/*  Tela Login */

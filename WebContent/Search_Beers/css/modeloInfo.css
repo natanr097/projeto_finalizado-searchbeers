@@ -1,0 +1,73 @@
+@import
+	url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+@import
+	url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+body {
+	background-color: #F1C345;
+}
+
+* {
+	font-size: 1.05rem;
+}
+
+.navbar {
+	background-color: #242424;
+	margin-top: 20px;
+	height: 80px;
+}
+
+.nav-link {
+	color: #ffffff;
+	font-family: 'Roboto', sans-serif;
+	line-height: 100px;
+}
+
+.active {
+	color: #ffffff;
+	text-decoration: underline;
+	font-size: 1.08rem;
+	color: #F1C345;
+}
+
+.logo {
+	position: absolute;
+	top: .5rem;
+	right: 32rem;
+}
+
+.cerveja {
+	position: absolute;
+	right: 8rem;
+	top: 7rem;
+	width: 500px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 800;
+	font-size: 1.3rem;
+	text-transform: uppercase;
+	color: #160D0E;
+}
+
+.descricao-esquerda {
+	position: absolute;
+	top: 10rem;
+	right: 20rem;
+	width: 300px;
+	text-align: left;
+	color: #201313;
+}
+
+.descricao-direita {
+	position: absolute;
+	top: 7rem;
+	left: 22rem;
+	width: 300px;
+	text-align: left;
+	color: #201313;
+}
+
+p {
+	display: block;
+	font-family: 'Lato', sans-serif;
+}

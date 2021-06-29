@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+	background-color: #F1C345;
+}
+
+* {
+	font-size: 1.05rem;
+}
+
+/* INÍCIO CABEÇALHO */
+
+.navbar {
+	background-color: #242424;
+	margin-top: 20px;
+	height: 80px;
+}
+
+.nav-link {
+	color: #ffffff;
+	font-family: 'Roboto', sans-serif;
+	line-height: 100px;
+}
+
+.active {
+	color: #ffffff;
+	text-decoration: underline;
+	font-size: 1.08rem;
+	color: #F1C345;
+}
+/* FIM CABEÇALHO */
+
+
+
+/* INÍCIO RODAPÉ DA PÁGINA */
+
+footer{
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	/* height: 250px; */
+	background-color: #242424;
+	z-index: 2;
+}
+
+.titulo-footer {
+	margin-left: 30px;
+}
+
+.social {
+	margin: 0 auto;
+	width: 12rem;
+}
+
+
+.fa-facebook {
+	color: #ffffff;
+	margin-top: 42px;
+	font-size: 30px;
+	margin-left: 50px;
+	margin-right: 15px;
+}
+
+.fa-instagram {
+	color: #ffffff;
+	margin-top: 42px;
+	font-size: 30px;
+	margin-right: 15px;
+}
+
+.fa-twitter {
+	color: #ffffff;
+	margin-top: 42px;
+	font-size: 30px;
+}
+
+.logo-footer {
+	/* margin-top: 20px; */
+	margin-left: 40px;
+}
+
+/* FIM RODAPÉ DA PÁGINA */

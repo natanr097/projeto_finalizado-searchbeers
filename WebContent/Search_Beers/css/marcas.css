@@ -1,0 +1,29 @@
+@import
+url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+body {
+	background-color: #F1C345;
+}
+
+* {
+	font-size: 1.05rem;
+}
+
+
+.navbar {
+	background-color: #242424;
+	margin-top: 20px;
+	height: 80px;
+}
+
+.nav-link {
+	color: #ffffff;
+	font-family: 'Roboto', sans-serif;
+	line-height: 100px;
+}
+
+.active {
+	color: #ffffff;
+	text-decoration: underline;
+	font-size: 1.08rem;
+	color: #F1C345;
+}
